@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="impresiones">
+	<meta name="robots" content="index"/>
+	<title>proGRamandote</title>
+	<link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+	<script src="JS/java.js"></script>
+</head>
+<body>
+
+	<!--Fondo de Pagina -->
+	<div>
+		<img id="fondo" src="IMG/fondo.png" alt="fondo">
+	</div>
+	<div class="capa"></div>
+	<!------------------------Menu--------------------------->
+	<header class="header">
+		<div class="btn-menu">
+			<label onclick="Menu()">☰</label>
+		</div>
+	</header>
+<!--	--------------->
+	<div id="contenedor-menu">
+		<div id="menu">
+			<nav>
+				<a href="#" onclick="ITE()">ITE</a>
+				<a href="#">Servicios</a>
+				<a href="#">Suscribirse</a>
+				<a href="#">Facebook</a>
+				<a href="#">Youtube</a>
+				<a href="#">Instagram</a>
+			</nav>
+			<label onclick="cerrar()">✖️</label>
+		</div>
+	</div>
+
+	<!----------------------Establecimientos------------------>
+	<section animacionprincipal>
+		<div id="circulo1">
+			<div class="circulo" id="Ocultar">
+				<img id="circuloBlanco" src="IMG/circulo.png" alt="">
+			</div>
+		</div>
+		<div id="logo">
+			<div class="circulo" id="ITE">
+				<a href="Escuelas.html">
+					<img a id="circuloITE" class="iteimg" src="IMG/Logos/ite.png" alt="Escudo del ITE">
+				</a>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
